@@ -1,0 +1,27 @@
+.hero_container{
+    background-color: #121212;
+    height: 60vh;
+    max-height: 900px;
+    background-image: url("./../../assets/hero_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+}
+
+.here_cover{
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.here_cover > div{
+    background-color: blue;
+    position: relative;
+}
+.here_cover > div img{
+    width: 400px !important;  
+    height: 400px !important;  
+    /* position: absolute; */
+}

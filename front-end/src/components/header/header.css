@@ -1,0 +1,19 @@
+#large-screen-menu {
+    display: flex;
+}
+
+#mobile-menu {
+    display: none;
+}
+
+
+@media screen and (max-width: 1050px) {
+    #large-screen-menu {
+        display: none;
+    }
+
+    #mobile-menu {
+        display: flex;
+    }
+
+}
